@@ -1,0 +1,47 @@
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* width: 100%; */
+  /* border: 1px solid; */
+}
+
+.row p {
+  text-align: center;
+  border: 1px solid;
+  /* width: 100%; */
+  padding: 20px;
+  font-size: 18px;
+}
+
+.head {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .row p {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .row p {
+    /* width: 100%; */
+    padding: 5px;
+    font-size: 10px;
+  }
+}
